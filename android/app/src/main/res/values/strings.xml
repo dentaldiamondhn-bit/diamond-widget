@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Diamond Link Calendar Widget</string>
+    <string name="widget_description">View your dental clinic calendar events and tasks</string>
+    <string name="widget_title">Diamond Link Calendar</string>
+    <string name="today_events">Today\'s Events</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="no_events">No events today</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error loading calendar</string>
+    <string name="refresh">Refresh</string>
+    <string name="open_app">Open Calendar</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#f8fafc">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diamond Link Calendar Widget"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1e293b"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your calendar widget has been installed!\n\nAdd it to your home screen:\n1. Long press on home screen\n2. Select \"Widgets\"\n3. Find \"Diamond Link Calendar\"\n4. Drag to home screen"
+        android:textSize="16sp"
+        android:textColor="#64748b"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/open_calendar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Calendar App"
+        android:textSize="16sp"
+        android:background="#3b82f6"
+        android:textColor="#ffffff"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
