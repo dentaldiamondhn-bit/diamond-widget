@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-bullseye
+FROM mcr.microsoft.com/devcontainers/java:1-17-bullseye
 
 # Install Android SDK and tools
 RUN apt-get update && apt-get install -y \
@@ -25,7 +25,7 @@ RUN wget -q https://dl.google.com/android/repository/commandlinetools-linux-9477
 RUN yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --sdk_root=$ANDROID_HOME "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
 # Set working directory
-WORKDIR /workspace
+WORKDIR /workspaces/diamond-widget
 
 # Copy project files
 COPY . .

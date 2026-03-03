@@ -1,1 +1,1 @@
-{"name": "Android Calendar Widget", "dockerFile": "Dockerfile", "settings": {"terminal.integrated.shell.linux": "/bin/bash"}, "extensions": ["redhat.java", "vscjava.vscode-java-pack", "ms-vscode.vscode-gradle"], "forwardPorts": [8080, 5555], "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh"}
+{"name": "Android Calendar Widget", "dockerFile": "Dockerfile", "settings": {"terminal.integrated.shell.linux": "/bin/bash"}, "extensions": ["redhat.java", "vscjava.vscode-java-pack", "ms-vscode.vscode-gradle"], "forwardPorts": [8080, 5555]}
